@@ -11,7 +11,6 @@ WORKDIR /data
 
 ADD somefile.txt somefile.txt
 
-
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-6-openjdk-amd64
 
