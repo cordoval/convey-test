@@ -9,6 +9,7 @@ RUN \
 # Define working directory.
 WORKDIR /data
 
+# adding arbitrary file
 ADD somefile.txt somefile.txt
 
 # Define commonly used JAVA_HOME variable
