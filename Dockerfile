@@ -1,6 +1,6 @@
 FROM dockerfile/ubuntu
 
-# Install Java.
+## Install Java.
 RUN \
   apt-get update && \
   apt-get install -y openjdk-6-jdk && \
