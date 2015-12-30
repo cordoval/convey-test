@@ -6,6 +6,7 @@ RUN \
   apt-get install -y openjdk-6-jdk && \
   rm -rf /var/lib/apt/lists/*
 
+
 # Define working directory.
 WORKDIR /data
 
